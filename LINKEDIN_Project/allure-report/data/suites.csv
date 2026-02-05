@@ -1,0 +1,4 @@
+"DESCRIPTION","DURATION IN MS","NAME","PARENT SUITE","START TIME","STATUS","STOP TIME","SUB SUITE","SUITE","TEST CLASS","TEST METHOD"
+"","12373","test_multi_tab_twister_and_login[chromium]","tests","2025-12-29","passed","2025-12-29","","test_mult_tab_orangehrm","",""
+"","12273","test_multi_tab_youtube_and_login[chromium]","tests","2025-12-29","passed","2025-12-29","","test_mult_tab_orangehrm","",""
+"","10169","test_multi_tab_facebook_and_login[chromium]","tests","2025-12-29","passed","2025-12-29","","test_mult_tab_orangehrm","",""

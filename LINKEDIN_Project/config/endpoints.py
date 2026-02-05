@@ -1,0 +1,6 @@
+REGISTER = "/api/register"
+LOGIN = "/api/login"
+ME = "/api/me"
+PATCH_PROFILE = "/api/profile"
+LOGOUT = "/api/logout"
+REFETCH_TOKEN = "/api/refetch-token"
