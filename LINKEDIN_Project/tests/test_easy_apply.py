@@ -6,7 +6,7 @@ import logging
 
 
 def test_easy_apply_on_browser(login_page, page):
-    login_page.login_valid_user("tamtknguyen86@gmail.com","Aloha@1996")
+    login_page.login_valid_user("tamtknguyen86@gmail.com","Aloha@1000")
 
     try:
         jobs = JobsPage(page)
@@ -43,3 +43,4 @@ def test_easy_apply_on_browser(login_page, page):
 #     easy_apply = EasyApply(page)
 
 #     easy_apply.verify_form_apply_and_close_form()
+
