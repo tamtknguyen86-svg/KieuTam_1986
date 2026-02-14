@@ -1,4 +1,4 @@
-name: Playwright Tests
+name: LinkedIn Tests
 
 on:
   push:
@@ -24,7 +24,7 @@ jobs:
           playwright install --with-deps
 
       - name: Run tests
-        run: pytest -q --html=report.html --self-contained-html
+        run: pytest -q .test\test_easy_apply.py --html=report.html --self-contained-html
 
       - name: Upload report
         if: always()
