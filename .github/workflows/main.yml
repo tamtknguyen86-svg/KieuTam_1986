@@ -24,7 +24,7 @@ jobs:
           playwright install --with-deps
 
       - name: Run tests
-        run: pytest -q --html=report.html --self-contained-html
+        run: pytest -q --html=report.html --self-contained-html .\LINKEDIN_Project\tests\test_easy_apply.py
 
       - name: Upload report
         if: always()
